@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    line-height: 1.6;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+#customBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: royalblue;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#infoPanel {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f3f3f3;
+}

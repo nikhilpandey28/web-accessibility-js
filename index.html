@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Accessibility in JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <h1>Web Accessibility Playground</h1>
+    
+    <hr>
+    
+    <h2>Task 1 & 2</h2>
+
+    <button id="nativeBtn">
+        Native Button
+    </button>
+
+    <div id="customBtn">
+        Custom Div Button
+    </div>
+
+    <hr>
+
+    <h2>Task 3 & 4</h2>
+
+    <button
+        id="toggleBtn"
+        aria-expanded="false"
+        aria-controls="infoPanel">
+
+        Toggle Panel
+
+    </button>
+
+    <div id="infoPanel" hidden>
+        This panel is now visible.
+    </div>
+
+    <hr>
+
+    <h2>Task 5</h2>
+
+    <button
+        id="iconBtn"
+        aria-label="Close Menu">
+        ✖
+    </button>
+
+    <hr>
+
+    <h2>Task 6</h2>
+
+    <label for="emailInput">
+        Email Address
+    </label>
+
+    <input
+        type="email"
+        id="emailInput"
+        placeholder="Enter Email">
+</body>
+
+</html>
